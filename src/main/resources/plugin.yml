@@ -1,0 +1,10 @@
+name: TPAFormsBridge
+version: '${version}'
+main: org.tpaforms.TPAFormsBridgePlugin
+api-version: '1.20'
+description: Bridges EssentialsX TPA requests to Bedrock forms via FormsAPI
+authors:
+  - kasniya
+softdepend:
+  - Essentials
+  - floodgate

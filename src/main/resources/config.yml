@@ -1,0 +1,8 @@
+# TPAFormsBridge Configuration
+
+# FormsAPI Connection Settings
+# The host where FormsAPI extension is running (Geyser Standalone)
+formsapi-host: "localhost"
+
+# The port FormsAPI is listening on
+formsapi-port: 9876
