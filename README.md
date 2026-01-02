@@ -55,7 +55,7 @@ formsapi-port: 9876
 └─────────────────────────────────────────────────────────────┘
                             │
                             │ TCP Connection
-                                          ▼
+                            ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    GEYSER STANDALONE                        │
 │  ┌───────────────────────────────────────────────────────┐  │
@@ -66,7 +66,7 @@ formsapi-port: 9876
 │  └───────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────┘
                             │
-                                          ▼
+                            ▼
                     ┌───────────────┐
                     │ Bedrock Player│
                     │ sees form with│
@@ -108,7 +108,7 @@ This plugin has no permissions. All Bedrock players automatically see forms for 
 ## Building from Source
 
 ```bash
-git clone https://github.com/DronzerStudios/TPAFormsBridge.git
+git clone https://github.com/dronzer-tb/Geyser-TPAFormsBridge
 cd TPAFormsBridge
 ./gradlew build
 ```
